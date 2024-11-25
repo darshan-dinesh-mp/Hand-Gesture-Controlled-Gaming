@@ -1,5 +1,0 @@
-User ID: 102
-Name: Delbin 
-Age: None
-Problem: Nill
-Score: 0.0

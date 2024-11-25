@@ -1,5 +1,0 @@
-User ID: 28
-Name: Darshan
-Age: 21
-Problem: Physical Disability
-Score: 100.0

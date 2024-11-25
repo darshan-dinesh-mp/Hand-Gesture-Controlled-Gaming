@@ -32,7 +32,7 @@ def signUp():
     id = simpledialog.askinteger("Input", "Enter User ID:")
     name = simpledialog.askstring("Input", "Enter User Name:")
     age = simpledialog.askinteger("Input", "Enter User Age:")
-    problem = simpledialog.askstring("Input", "Enter User Problem:")
+    problem = simpledialog.askstring("Input", "Enter Description:")
     score = simpledialog.askfloat("Input", "Enter User Score:")
     messagebox.showinfo("Photo","Press S once face is postioned")
 

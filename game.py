@@ -119,7 +119,7 @@ class Game:
                     hen_y = current_hen['y']
                     egg_x = hen_x + hen_width // 2 - egg_width // 2
                     egg_y = hen_y + hen_height
-                    egg_speed = random.randint(2, 4)
+                    egg_speed = random.randint(5, 7)
                     eggs.append({'x': egg_x, 'y': egg_y, 'speed': egg_speed})
                     current_hen['laying_timer'] = random.randint(1000, 2000)  # Reset the laying timer
 

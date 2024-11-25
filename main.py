@@ -29,11 +29,11 @@ def get_hand():
 
 
 def signUp():
-    id = simpledialog.askinteger("Input", "Enter Patient ID:")
-    name = simpledialog.askstring("Input", "Enter Patient Name:")
-    age = simpledialog.askinteger("Input", "Enter Patient Age:")
-    problem = simpledialog.askstring("Input", "Enter Patient Problem:")
-    score = simpledialog.askfloat("Input", "Enter Patient Score:")
+    id = simpledialog.askinteger("Input", "Enter User ID:")
+    name = simpledialog.askstring("Input", "Enter User Name:")
+    age = simpledialog.askinteger("Input", "Enter User Age:")
+    problem = simpledialog.askstring("Input", "Enter User Problem:")
+    score = simpledialog.askfloat("Input", "Enter User Score:")
     messagebox.showinfo("Photo","Press S once face is postioned")
 
     signup = FaceRecognition(id,name,age,problem,score)

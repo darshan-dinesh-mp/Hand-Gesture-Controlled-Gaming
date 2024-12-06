@@ -1,5 +1,0 @@
-User ID: 101
-Name: Darshan
-Age: 22
-Problem: Nil
-Score: 80.0
